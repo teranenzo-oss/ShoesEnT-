@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GUARABO SMASH</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff5f7;
+}
+
+/* HEADER */
+header {
+    background: #ffd6dc;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 200px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.slogan {
+    color: #555;
+}
+
+/* BOTONES */
+.boton {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background: #ff8fab;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background: #ff4d6d;
+}
+
+/* SECCIONES */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-img {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* TARJETAS */
+.card {
+    background: #ffe5ec;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="GUARABO SMASH">
+    <h1>GUARABO SMASH</h1>
+    <p class="slogan">Sabor que cruza fronteras</p>
+
+    <a class="boton" href="https://wa.me/59163840550?text=Hola%20quiero%20hacer%20un%20pedido">Pedir por WhatsApp</a>
+    <a class="boton" href="#menu">Ver Menú</a>
+</header>
+
+<section id="menu">
+    <h2>Nuestro Menú</h2>
+    <img src="menu.jpg" class="menu-img">
+</section>
+
+<section>
+    <h2>Hamburguesas Destacadas</h2>
+
+    <div class="card">
+        <h3>🍔 La Asunción</h3>
+        <p>Pan blanco, carne premium, tomate, lechuga, queso cheddar, salsa paraguaya especial</p>
+        <p><strong>Precio: 10 Bs</strong></p>
+        <a class="boton" href="https://wa.me/59163840550?text=Quiero%20La%20Asuncion">Pedir</a>
+    </div>
+
+    <div class="card">
+        <h3>🍔 La Andina</h3>
+        <p>Pan blanco, carne premium, tomate, lechuga, queso cheddar + aderezo extra</p>
+        <p><strong>Precio: 10 Bs</strong></p>
+        <a class="boton" href="https://wa.me/59163840550?text=Quiero%20La%20Andina">Pedir</a>
+    </div>
+
+</section>
+
+<section>
+    <h2>Box para Compartir</h2>
+
+    <div class="card">
+        <h3>🍟 2 Hamburguesas</h3>
+        <p>Papas + 3 aderezos</p>
+        <p><strong>25 Bs</strong></p>
+        <a class="boton" href="https://wa.me/59163840550?text=Quiero%20box%202%20hamburguesas">Pedir</a>
+    </div>
+
+    <div class="card">
+        <h3>🍟 6 Hamburguesas</h3>
+        <p>Papas + 3 aderezos</p>
+        <p><strong>70 Bs</strong></p>
+        <a class="boton" href="https://wa.me/59163840550?text=Quiero%20box%206%20hamburguesas">Pedir</a>
+    </div>
+
+    <div class="card">
+        <h3>🍟 8 Hamburguesas</h3>
+        <p>Papas + 3 aderezos</p>
+        <p><strong>90 Bs</strong></p>
+        <a class="boton" href="https://wa.me/59163840550?text=Quiero%20box%208%20hamburguesas">Pedir</a>
+    </div>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/59163840550?text=Hola%20quiero%20hacer%20un%20pedido">
+📱
+</a>
+
+</body>
+</html>
